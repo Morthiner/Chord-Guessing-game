@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #282c36;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  header {
+    background-color: #61dafb;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1c1f25;
+    width: 100%;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  #score-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #61dafb;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #4fa3d1;
+  }
+
+  .correct {
+    background-color: #8bc34a; 
+    color: #ffffff;
+  }
+
+  .wrong {
+    background-color: #ff5722; 
+    color: #ffffff;
+  }
+
+  #buttons-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .guess-container {
+    margin: 10px;
+    padding: 20px;
+    background-color: #1c1f25;
+    border-radius: 8px;
+  }
+
+  #major-chords {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .major-chord-button {
+    margin: 0 10px;
+    background-color: #61dafb;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .major-chord-button:hover {
+    background-color: #4fa3d1;
+  }
+
+  script {
+    margin-top: 20px;
+  }
