@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chord Guessing Game</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Chord Guessing Game</h1>
+  <div id="score-container">
+    <p>Score: <span id="score">0</span></p>
+    <p>Tries: <span id="tries">0</span></p>
+  </div>
+  <button onclick="generateRandomChord()">Generate Chord</button>
+  <p id="result"></p>
+  <h3>Guess the chords: </h3>
+  <div id="buttons-container"></div>
+  <h3>Play the chords: </h3>
+  <div id="major-chords"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
